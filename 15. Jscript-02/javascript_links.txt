@@ -1,0 +1,73 @@
+https://www.99-bottles-of-beer.net/lyrics.html
+
+https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/
+
+https://blog.codinghorror.com/why-cant-programmers-program/
+
+https://www.lovecalculator.com/
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+# leap year function
+
+
+function isLeap(year) {
+    
+/**************Don't change the code above****************/    
+    
+    //Write your code here.    
+   if (year % 4 !== 0){
+       return "Not leap year."
+   } 
+   
+   else {
+       
+       if (year % 100 !==0){
+           return "Leap year."
+       } else if (year % 400 === 0){
+           return "Leap year."
+       } else {
+           return "Not leap year."
+       }
+       
+       
+    }
+   
+   
+/**************Don't change the code below****************/    
+}
+
+
+
+# fibonaci function
+
+function fibonacciGenerator (n) {
+//Do NOT change any of the code above 👆
+    
+    var fib = [];
+    //Write your code here:
+    if( n ===1){
+        return [0];
+    }
+    
+    if (n===2){
+        return [0,1];
+    } 
+    
+    if (n>2){
+        fib=[0,1];
+    }
+    
+    for (var i =2; i< n; i++){
+        
+     var temp = fib[i-1] + fib[i-2];
+     fib.push(temp);
+    }
+    
+    
+    //Return an array of fibonacci numbers starting from 0.
+    return fib;
+//Do NOT change any of the code below 👇
+}
+
+
