@@ -1,0 +1,6 @@
+https://developers.google.com/speed/libraries#jquery
+
+https://jquery.com/
+
+https://www.minifier.org/
+
